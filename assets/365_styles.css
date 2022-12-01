@@ -1,0 +1,342 @@
+html,
+body {
+  margin: 0 !important;
+  overflow: scroll;
+  font-family: Manrope, sans-serif !important;
+  border: none !important;
+  background-color: #f9f9fa !important;
+}
+
+#csr_subbody {
+  margin: 25px;
+}
+
+.csr-dash-page.row {
+  padding-top: 0px;
+  display: block;
+  width: 100%;
+  overflow-y: scroll !important;
+  border: none !important;
+}
+
+.options-sidebar {
+  padding: 0px 15px;
+  padding-top: 1vh;
+  margin-right: 0px;
+  float: right !important;
+  width: 20vw;
+  height: 100vh !important;
+  overflow-y: scroll;
+  z-index: 9990 !important;
+  border-left: 4px solid #ffffff;
+  position: relative !important;
+  background-color: #ffffff;
+}
+
+p {
+  color: #0d222d;
+}
+
+.modebar {
+  margin-top: -10px !important;
+}
+
+.plotly:hover .modebar-group {
+  background-color: rgba(128, 255, 212, 0, 5) !important;
+}
+
+.DateRangePickerInput > div {
+  padding: 0px 10px;
+  /* flex: 0 0 30% !important; */
+  overflow: hidden !important;
+  justify-content: space-evenly !important;
+}
+
+.DateInput_input,
+.DateRangePickerInput_arrow {
+  font-size: 1.2em;
+  font-weight: bold !important;
+  padding: 10px 0px !important;
+  margin: 0px !important;
+  text-align: center;
+  color: #000f1d;
+}
+
+.DateRangePickerInput_arrow {
+  width: 2em !important;
+  font-size: 1.2em;
+  color: #000f1d;
+  fill: #000f1d;
+}
+
+#csr-toggle,
+#csr-toggle-2 {
+  transform: rotate(90deg);
+  margin: 0px 45px;
+}
+
+.toggle-text {
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.toggles-container {
+  padding: 0px;
+  margin: -10px 0px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+#input-platforms {
+  border: 1px solid #828080;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 13px 2px;
+  margin-top: 0px;
+  padding-right: 0px;
+  width: 95%;
+}
+
+#x-text-btn {
+  position: relative;
+  z-index: 30;
+  width: 35px;
+  height: 35px;
+  margin: 0;
+  margin-left: -45px;
+  border: 0;
+  padding: 0;
+  font-size: 25px;
+  background-color: #fff;
+  color: #0d222d !important;
+  border-radius: 20%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 150ms;
+}
+
+#x-text-btn:hover,
+#x-text-btn:focus {
+  transform: rotateZ(90deg) scale(120%) !important;
+  background-color: #e2e2e2;
+}
+
+.csr-categories-container {
+  margin: 0px;
+  height: 20vh;
+  overflow-y: scroll;
+}
+
+.csr-platforms-container {
+  margin: 0px;
+  margin-top: -5px;
+  height: 38vh;
+  overflow-y: scroll;
+}
+
+.card-subtitles {
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 2px solid #8d8b8b;
+  margin-bottom: 10px;
+}
+
+.calendar-kit {
+  display: flex;
+  margin-top: 0vh;
+  padding-top: 4.5vh;
+  padding-bottom: 1vh;
+  margin-left: -3vw;
+  padding-left: 2.8vw;
+  z-index: 10000 !important;
+  position: fixed;
+  width: 120vw;
+  background-color: #f8f8f9;
+}
+
+h3 {
+  color: #ffffff;
+  padding: 0;
+  margin: 5px;
+}
+
+h4 {
+  color: #ffffff;
+  padding: 0;
+  margin: 0 5px;
+  text-align: center;
+  font-weight: normal !important;
+}
+
+.csr-kpi {
+  border: 2px solid #00111b;
+  background-color: #00111b;
+  border-radius: 5%;
+  padding: 5px;
+  margin: 0 20px;
+  width: 140px;
+  text-align: center;
+  height: 4vh !important;
+}
+
+.some-kpis {
+  font-size: 0.8em !important;
+  display: flex;
+  position: fixed;
+  z-index: 10000 !important;
+  margin-top: -68px;
+  margin-left: 480px;
+}
+
+#cal-icon,
+.cal-icon {
+  width: 50px;
+  height: 50px;
+}
+
+#mentorcloud-logo-csr {
+  cursor: pointer !important;
+}
+
+#mentorcloud-logo-csr img {
+  margin-left: 215px;
+  margin-top: 10px;
+  height: 46px;
+}
+
+/* ################################################################################################# */
+/* ################################################################################################# */
+/* ################################################################################################# */
+/* ################################################################################################# */
+
+#sett-icon {
+  z-index: 999 !important;
+  color: #0f222d;
+  border: none !important;
+  right: 0;
+  margin: 35px 35px;
+  position: absolute;
+  transform: scale(3);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#sett-icon:hover {
+  color: #6a57d8 !important;
+}
+
+#moon-icon {
+  z-index: 999 !important;
+  color: #fff;
+  border: none !important;
+  margin: 30px 20px;
+  transform: scale(2.5);
+  position: absolute;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#sun-icon {
+  z-index: 999 !important;
+  color: #fff;
+  border: none !important;
+  margin: 30px 20px;
+  transform: scale(3);
+  position: absolute;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+
+/* ################################################################################################# */
+/* ################################################################################################# */
+
+/**
+ * Charts
+ */
+
+#container-charts-time {
+  padding-top: 11vh;
+}
+
+.chart-1-alone {
+  margin: 0 1vw;
+}
+
+.csr-2-columns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch !important;
+  flex: 0 0 47% !important;
+  justify-content: space-evenly;
+  margin: 1vh 0vh;
+}
+
+.csr-2-columns > div {
+  padding: 0px 10px;
+  flex: 0 0 47% !important;
+  overflow: hidden;
+}
+
+.csr-3-columns {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: stretch;
+  justify-content: space-evenly !important;
+  margin: 1vh 0vh;
+}
+
+.csr-3-columns > div {
+  padding: auto;
+  flex: 0 0 32% !important;
+  overflow: hidden;
+}
+/* ################################################################################################# */
+/* ################################################################################################# */
+/* ################################################################################################# */
+/* ################################################################################################# */
+
+.gtitle {
+  fill: #00111b !important;
+  font-weight: 800 !important;
+  text-align: center !important;
+}
+
+.bglayer rect {
+  fill: transparent !important;
+}
+
+.ygrid {
+  stroke: #e4e4e4 !important;
+  stroke-opacity: 0.9 !important;
+  stroke-width: 1px !important;
+}
+
+.y2grid {
+  stroke: #e4e4e4 !important;
+  stroke-opacity: 0.5 !important;
+  stroke-width: 0.5px !important;
+  stroke-dasharray: 5 !important;
+}
+
+.dash-graph {
+  border-radius: 1%;
+  box-shadow: 5px 5px 21px -8px rgba(0, 15, 29, 0.71);
+  -webkit-box-shadow: 5px 5px 21px -8px rgba(0, 15, 29, 0.71);
+  -moz-box-shadow: 5px 5px 21px -8px rgba(0, 15, 29, 0.71);
+}
+
+/* ################################################################################################# */
+/* .legend .bg {
+  fill: #0d222d !important;
+} */
+
+.CalendarDay__selected {
+  border: 1px double #135920 !important;
+}
+
+.CalendarDay__selected_span {
+  border: 1px double #ffffff !important;
+}
