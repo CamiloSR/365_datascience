@@ -61,7 +61,7 @@ def load_dfs():
     course_ratings = pd.read_csv("365_database/365_course_ratings.csv")
     course_info = pd.read_csv("365_database/365_course_info.csv")
     student_learning = pd.read_csv("365_database/365_student_learning.csv")
-    map_df = pd.read_csv("365_database/map_df.csv").drop(columns=["Unnamed: 0", "id"])
+    map_df = pd.read_csv("365_database/map_df.csv")
     course_info_names = pd.read_csv("365_database/course_info_names.csv").drop(
         columns="Unnamed: 0"
     )
