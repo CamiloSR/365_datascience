@@ -645,7 +645,7 @@ def top_courses(range_dates):
         False,  # Legend Yes or No
         "x unified",  # Hovermode
         new_labels,  # new_labels
-        range_dates, # Dates
+        range_dates,  # Dates
         "agg_parameter",
     ]
     ################################################################
@@ -693,7 +693,29 @@ def top_courses(range_dates):
     fig = make_subplots(specs=[[{"secondary_y": True}]])
     fig.add_traces(fig_A.data + fig_B.data)
 
+    fig.update_layout(
+        title="15 Most Popular Courses",  # "%s - (%s)"%(chart_title,company),
+        hovermode="x unified",
+        showlegend=False,
+        transition_duration=500,
+        xaxis_title="Course",
+        yaxis_title=None,
+        yaxis2_title=None,
+        legend_title=None,
+        paper_bgcolor="#FFFFFF",
+        plot_bgcolor="#FFFFFF",
+        bargap=0.15,
+        margin=dict(
+            l=2,
+            r=2,
+            b=2,
+            t=50,
+        ),
+    )
+    fig.update_xaxes(tickfont_size=10)
+
     return fig
+
 
 # %% [markdown]
 # # PART 2. **Dash APP**
@@ -915,5 +937,3 @@ def populate_tabs(start_date, end_date):
 ######################### -----------  Server Initiation
 if __name__ == "__main__":
     app.run_server(host='0.0.0.0', port=8080, debug=False, use_reloader=False)
-
-
