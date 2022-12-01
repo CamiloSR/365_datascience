@@ -1,0 +1,18 @@
+{
+       "students_registered": "Students Registered",
+       "courses_rated": "Courses Rated",
+       "tot_minutes_watched": "Minutes Watched",
+       "tot_hours_watched": "Hours Watched",
+       "tot_courses_watched": "Courses Watched",
+       "avg_exam_results": " Avg. Exams Results",
+       "avg_exam_completion_time": "Avg. Ex. Completion Time",
+       "tot_exams_presented": "Exams Presented",
+       "questions_posted": "Questions Posted",
+       "engagement_quizzes": "Quizzes Engagements",
+       "engagement_exams": "Exams Engagements",
+       "engagement_lessons": "Lessons Engagements",
+       "annual_purchases": "Purchases (Annual Plan)",
+       "monthly_purchases": "Purchases (Monthly Plan)",
+       "quarterly_purchases": "Purchases (Quarterly Plan)",
+       "weekday": "Weekday"
+}

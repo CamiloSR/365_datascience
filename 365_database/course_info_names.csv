@@ -1,0 +1,47 @@
+,course_id,avg_course_rating,avg_minutes_watched,tot_minutes_watched,times_watched,popularity,course_title,intro_word,ml
+0,2,4.625,645,50405.5,1137,245.83783783783784,Introduction to Tableau,True,False
+1,3,4.705882352941177,799,73659.9,1360,289.0,"The Complete Data Visualization Course with Python, R, Tableau, and Excel",False,False
+2,4,4.88,389,28008.9,704,144.2622950819672,Introduction to R Programming,True,False
+3,5,4.903225806451613,572,44323.8,921,187.83552631578948,Data Preprocessing with NumPy,False,False
+4,7,4.858391608391608,7540,333265.9,15353,3160.0993163008275,Introduction to Data and Data Science,True,False
+5,11,4.622641509433962,448,25412.0,683,147.75102040816327,Data Cleaning and Preprocessing with pandas,False,False
+6,12,4.357142857142857,247,13391.9,366,84.00000000000001,Introduction to Business Analytics,True,False
+7,13,4.844444444444444,684,38021.0,1062,219.22018348623854,Data Analysis with Excel Pivot Tables,False,False
+8,14,4.816,3715,234824.8,6702,1391.6112956810632,SQL,False,False
+9,15,4.705882352941177,441,19716.3,833,177.0125,Credit Risk Modeling in Python,False,False
+10,16,4.821782178217822,2638,155164.3,4628,959.8110882956879,Python Programmer Bootcamp,False,False
+11,19,5.0,121,4938.0,205,41.0,SQL + Tableau + Python,False,False
+12,20,4.9298245614035086,517,20050.7,710,144.02135231316726,Introduction to Jupyter,True,False
+13,21,4.813953488372093,3609,193279.6,7046,1463.6618357487923,Statistics,False,False
+14,22,4.85,301,12521.1,536,110.51546391752578,Mathematics,False,False
+15,23,4.776859504132231,3285,164472.1,6032,1262.7543252595158,Introduction to Excel,True,False
+16,24,4.672131147540983,822,42522.2,1479,316.5578947368421,Probability,False,False
+17,25,4.809523809523809,253,12175.9,427,88.78217821782178,"Starting a Career in Data Science: Project Portfolio, Resume, and Interview Process",False,False
+18,26,4.8076923076923075,160,3498.7,247,51.376000000000005,SQL + Tableau,False,False
+19,27,4.636363636363637,242,11573.0,387,83.47058823529412,Time Series Analysis with Python,False,False
+20,28,4.595744680851064,744,34077.8,1247,271.33796296296293,Power BI,False,False
+21,29,4.823529411764706,199,8862.6,321,66.54878048780488,Product Management for AI & Data Science,False,False
+22,30,4.975609756097561,184,6539.5,353,70.94607843137256,Git and GitHub,False,False
+23,32,4.769230769230769,254,15436.7,494,103.58064516129032,Deep Learning with TensorFlow 2,False,False
+24,33,5.0,165,8137.400000000001,286,57.2,Customer Analytics in Python,False,False
+25,34,4.545454545454546,282,11026.6,471,103.61999999999999,Web Scraping and API Fundamentals in Python,False,False
+26,35,4.73,732,25355.5,1281,270.82452431289636,Introduction to Python,True,False
+27,36,4.6,98,3908.8,187,40.652173913043484,Python for Finance,False,False
+28,37,4.809523809523809,990,37793.2,1678,348.89108910891093,Machine Learning in Python,False,True
+29,39,4.86,350,14894.6,556,114.40329218106996,Advanced Microsoft Excel,False,False
+30,41,4.75,64,4125.6,119,25.05263157894737,Convolutional Neural Networks with TensorFlow in Python,False,False
+31,42,4.733766233766234,1658,102887.5,3210,678.1069958847736,Data Strategy,False,False
+32,43,4.454545454545454,98,3261.8,160,35.91836734693878,Fashion Analytics with Tableau,False,False
+33,44,4.875,43,1246.1,56,11.487179487179487,Dates and Times in Python,False,False
+34,45,4.75,496,10072.5,898,189.05263157894737,SQL for Data Science Interviews,False,False
+35,46,4.791666666666667,783,51092.2,1378,287.58260869565214,Data Literacy,False,False
+36,48,4.25,40,1262.3,63,14.823529411764707,AI Applications for Business Success,False,False
+37,49,4.857142857142857,77,3280.0,135,27.794117647058826,Linear Algebra and Feature Selection,False,False
+38,50,4.705882352941177,82,2454.5,119,25.287499999999998,Machine Learning with Naïve Bayes,False,True
+39,51,4.666666666666667,56,2587.6,110,23.57142857142857,Machine Learning in Excel,False,True
+40,52,4.818181818181818,45,1741.7,83,17.22641509433962,Machine Learning with Support Vector Machines,False,True
+41,53,4.75,172,3989.1,201,42.31578947368421,A/B Testing in Python,False,False
+42,54,4.777777777777778,79,2431.4,89,18.627906976744185,Machine Learning with Decision Trees and Random Forests,False,True
+43,55,4.733333333333333,65,1247.3,69,14.577464788732394,Machine Learning with K-Nearest Neighbors,False,True
+44,57,1.0,55,735.7,55,55.0,Data-Driven Business Growth,False,False
+45,56,,27,652.4,27,,Machine Learning with Ridge and Lasso Regression,False,True
