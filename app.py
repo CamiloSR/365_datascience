@@ -13,6 +13,7 @@ import warnings
 import numpy as np
 import pandas as pd
 import plotly.express as px
+import statsmodels.api as sm
 import matplotlib.pyplot as plt
 import dash_bootstrap_components as dbc
 
