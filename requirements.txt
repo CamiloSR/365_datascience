@@ -12,3 +12,4 @@ pandas==1.4.3
 plotly==5.8.2
 gcsfs==2022.8.2
 fsspec==2022.8.2
+statsmodels==0.13.2
